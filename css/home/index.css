@@ -1,0 +1,143 @@
+.content-home {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.2fr;
+}
+.opening-sentence {
+  background-color: #40bfae;
+  width: 100%;
+  height: 320px;
+  margin: 0;
+  grid-column: 1/3;
+  display: grid;
+  justify-items: center;
+  padding-right: 30%;
+}
+.opening-sentence h1 {
+  width: 35%;
+}
+.opening-sentence h1 span {
+  color: white;
+}
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  width: 100%;
+  height: 512px;
+}
+.content1 {
+  background-color: #40bfae;
+  display: grid;
+  justify-items: right;
+  align-items: center;
+}
+.content2 {
+  background-color: white;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.content3 {
+  background-color: #40bfae;
+  display: grid;
+  justify-items: left;
+  align-items: center;
+}
+.content4 {
+  background-color: white;
+  display: grid;
+  justify-items: right;
+  align-items: center;
+}
+.content5 {
+  background-color: #40bfae;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.content6 {
+  background-color: white;
+  display: grid;
+  justify-items: left;
+  align-items: center;
+}
+.content-about1,
+.content-about2,
+.content-about3,
+.content-about4,
+.content-about5,
+.content-about6 {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: 25px;
+  width: 240px;
+  text-transform: uppercase;
+}
+.content-h2 {
+  margin-top: 15px;
+}
+.content-about1 {
+  color: white;
+  margin-right: 40px;
+}
+.content-about2 {
+  color: black;
+}
+.content-about3 {
+  margin-left: 40px;
+}
+.content-about4 {
+  margin-right: 40px;
+}
+.content-about5 {
+  color: white;
+}
+.content-about6 {
+  margin-left: 40px;
+}
+.nav-link-item {
+  min-height: 200vh;
+}
+@media (max-width: 1240px) {
+  .content-home {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .content-about1 {
+    margin-right: 0px;
+  }
+  .content-about3 {
+    margin-left: 0px;
+  }
+  .content-about4 {
+    margin-right: 0px;
+  }
+  .content-about6 {
+    margin-left: 0px;
+  }
+  .opening-sentence {
+    display: grid;
+    justify-items: center;
+    padding-right: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .opening-sentence h1 {
+    width: 95%;
+  }
+  .content1 {
+    justify-items: center;
+  }
+  .content3 {
+    justify-items: center;
+  }
+  .content4 {
+    justify-items: center;
+  }
+  .content6 {
+    justify-items: center;
+  }
+}

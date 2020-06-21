@@ -1,0 +1,1 @@
+também ja fiz o script php para envio de email , ele esta na pasta mail que esta dentro da pasta assets.
