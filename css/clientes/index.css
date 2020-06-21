@@ -4,7 +4,7 @@
 }
 .content-clientes-items {
   min-height: 100vh;
-  width: 60%;
+  width: 85%;
   text-align: center;
   margin-top: 30px;
   display: grid;
@@ -27,7 +27,7 @@
   margin-top: 20px;
 }
 .clientes-category {
-  width: 76%;
+  width: 54%;
   text-align: left;
 }
 .clientes-category ul li {
