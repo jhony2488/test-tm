@@ -1,6 +1,7 @@
 //nav
 $('.nav-link-item').hide()
 let decision = false
+//caso o usuario clique fora quando a nav estiver aberta
 $('.nav-link-item').mouseleave(function () {
   $('body').click(function () {
     $('.nav-link-item').hide()
@@ -16,4 +17,3 @@ $('.button-hamburger').click(function () {
     $('.nav-link-item').hide()
   }
 })
-//caso o usuario clique fora quando a nav estiver aberta
